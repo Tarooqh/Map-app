@@ -1,0 +1,4 @@
+import folium
+
+map = folium.Map(location=[20,80],width='50%', height='50%',max_zoom=25,zoom_start=6, tiles="OpenStreetMap")
+map.save("Map1.html")
